@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon ./src/server.ts",
-    "build": "tsc",
+    "build": "tsc && copyfiles -u 1 src/public/**/* dist/",
     "start": "node ./dist/server.js"
   },
   "keywords": [],
@@ -30,5 +30,8 @@
     "mongoose": "^8.8.1",
     "nodemon": "^3.1.7",
     "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.4.1"
   }
 }
