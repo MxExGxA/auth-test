@@ -9,5 +9,5 @@
       }
     }
   ],
-  "rewrites": [{ "source": "/(.*)", "destination": "/auth" }]
+  "rewrites": [{ "source": "/(.*)", "destination": "/dist" }]
 }
