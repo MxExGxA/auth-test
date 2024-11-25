@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./src/server.ts",
+    "dev": "nodemon ./src/index.ts",
     "build": "tsc && copyfiles -u 1 src/client/**/* dist/",
-    "start": "node ./dist/server.js"
+    "start": "node ./dist/index.js"
   },
   "keywords": [],
   "author": "",

@@ -22,6 +22,6 @@ app.use(express.static(path.join(__dirname, "client")));
 app.use("/api/auth", authRouter);
 app.use("/api/user", userRouter);
 
-app.listen(443, () => {
-  console.log("server is running on port", 443);
+app.listen(4000, () => {
+  console.log("server is running on port", 4000);
 });
